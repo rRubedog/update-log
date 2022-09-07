@@ -1,0 +1,15 @@
+img {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+    transition: all ease 0.5s;
+  }
+  img:hover {
+    -webkit-filter: blur(0); /* Safari 6.0 - 9.0 */
+    filter: blur(0);
+    transition: all ease 0.5s;
+  }
+  .updates img{
+    position:relative;
+    width:40%;
+    height:40%;
+  }

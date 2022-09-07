@@ -1,0 +1,46 @@
+html, body {
+    background-color: rgb(20, 20, 20);
+    color: white;
+  }
+  
+  .header {
+    background-color: rgba(36, 6, 43, 0.185);
+    text-align: center;
+    font-size:120%;
+    padding: 40px;
+    text-shadow: 1px 1px 10px white, -5px 5px 20px red, 5px -5px 20px blue;
+    margin-right:25%;
+  }
+  div {
+    background-color: rgba(20, 20, 20, 0.8);
+    color: white;
+  
+  }
+
+  .underline {
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.4);
+    height:4px;
+  }
+  .text:hover .underline {
+    transition: all 0.5s ease;
+    width:auto;
+    background-color:white;
+    height:8px;
+  }
+  .updates {
+    padding:40px;
+    border-radius: 20px 20px 20px 20px;
+    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px white;
+  }
+
+  .version {
+    float: right;
+    background-color:black;
+    height: auto;
+    width: 25%;
+    color: white;
+    position:relative;
+    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px white;
+    text-align: center;
+  }
