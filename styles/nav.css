@@ -1,0 +1,42 @@
+.nav {
+    background-color: gray;
+    height: 20px;
+    padding: 20px;
+    width: auto;
+  }
+  .nav a{
+    color: rgb(20, 20, 20);
+    padding: 20px;
+  }
+  .nav a:hover{
+    background-color: rgba(20, 20, 20, 0.4);
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .stickynav {
+    background-color: gray;
+    height: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    box-shadow: 10px 5px 20px black;
+  }
+  .stickynav a {
+    color: rgb(20, 20, 20);
+    font-size: 100%;
+    padding: 20px;
+  }
+  .stickynav a:hover {
+    background-color: rgba(20, 20, 20, 0.4);
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  @media only screen and (max-width: 800px) {
+    .stickynav {
+      position: relative;
+      top:0;
+      width:100%;
+      left: 0;
+    }
+  }
